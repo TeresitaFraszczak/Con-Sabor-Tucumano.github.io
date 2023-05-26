@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*barra navegacion*/
+
+nav{
+    background-color: rgb(4, 39, 44);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.barra{
+    display: flex;
+    margin: 20px; 
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    color: white;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, san-sserif;  
+    padding: 4px 4px;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+.nav-link-active{
+    color: rgb(245, 181, 6); 
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    text-decoration: none;  
+}
+.zoom{
+    transition-property: inherit;
+    transition-duration: 3s;
+}
+.zoom:hover{
+transform: scale(1.2);
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+h2{
+    color:#678e29;
+    font-family: 'Allison', cursive;
+    font-size: 50px;
+    text-align: center;    
+    margin:0 auto;
+    letter-spacing: 3px; 
+  
+}
+
+.card{
+    width: 330px;
+    height:530px;
+    border-radius: 8px;
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin:20px;
+    text-align: center;
+    transition: all 0.25s;
+  } 
+
+  .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    width:330px;
+    height:220px;
+  }
+
+
+.card h3{
+    font-family: 'Allison', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: #323332;
+    
+    
+}
+.card p{
+    padding: 0 1rem;
+    font-size:16px;
+    font-weight: 300px;
+}
+
+#iconos{
+    margin: 15px;
+    justify-content: center;
+    
+}
+
+  
+.seccion-secundaria{
+    display: flex;
+    background-color:#678e29;
+    color: white;
+    padding:50px;
+    justify-content: space-between;    
+}
+
+.sc{
+    margin-inline: 60px;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(4, 39, 44);
+    color: white;
+    text-align:center;
+    height: 20vh;
+    padding:20px;
+}
+
+.gh{
+    color: white;
+    margin: 30px;
+    padding: 6px;
+}
+p{
+    margin-top: 10px;
+}
+
